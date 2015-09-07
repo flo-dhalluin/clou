@@ -33,7 +33,9 @@
                                    :asset-path "js/compiled/out"
                                    :output-to "resources/public/js/compiled/myclojuretest.js"
                                    :output-dir "resources/public/js/compiled/out"
-                                   :source-map-timestamp true}}]
+                                   :source-map-timestamp true
+                                   :optimizations :none
+                                   :source-map true}}]
 
 
               }
